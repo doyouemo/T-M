@@ -1,0 +1,72 @@
+# AI / IDE
+.claude/
+.cursor/
+.idea/
+.vscode/
+*.code-workspace
+
+# 参考资料（本地对照用，不上传）
+refs/
+reference/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# 临时 / 备份
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+~$*
+
+# 环境与密钥
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# 嵌入式 / 编译产物
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.d
+Debug/
+Release/
+**/Debug/
+**/Release/
+*.ioc.bak
+
+# EasyEDA / 设计工具导出缓存
+*.easyeda.bak
+*.SchDoc.bak
+*.PcbDoc.bak
+
+# 日志与本地数据
+*.log
+logs/
+*.csv.bak
